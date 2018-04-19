@@ -1,7 +1,7 @@
+ <!--looking up the URL definition as specified in the polls.urls module, app name polls-->
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
-        # looking up the URL definition as specified in the polls.urls module, app name polls
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
     </ul>
