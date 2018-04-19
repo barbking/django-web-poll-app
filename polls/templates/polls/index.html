@@ -1,3 +1,7 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
  <!--looking up the URL definition as specified in the polls.urls module, app name polls-->
 {% if latest_question_list %}
     <ul>
