@@ -2,6 +2,8 @@ from django.conf.urls import url
 
 from . import views
 
+# so Django knows what app to look in for url names
+app_name = 'polls'
 urlpatterns = [
     # ex: /polls/
     url(r'^$', views.index, name='index'),
