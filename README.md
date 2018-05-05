@@ -1,6 +1,4 @@
-## Python 603 Class Project Spring 2018
-
-### For my Python class project I am doing an overview of Python web frameworks and creating an app using a Django tutorial.
+### Python class project - Overview of Django and demo app using tutorial
 
 #### Installs:
 - Python
